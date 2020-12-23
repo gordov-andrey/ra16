@@ -3,7 +3,6 @@ import './main.css';
 import PropTypes from 'prop-types';
 import ItemModels from '../models';
 
-
 export default function ShopItemFunc(props) {
 
     const {item} = props;
@@ -22,10 +21,12 @@ export default function ShopItemFunc(props) {
             </div>
         </div>
     );
-
-
+ 
 }
 
 ShopItemFunc.propTypes = {
     item: PropTypes.instanceOf(ItemModels).isRequired 
 }
+
+
+
